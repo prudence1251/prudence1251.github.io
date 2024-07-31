@@ -1,0 +1,111 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #333;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    animation: backgroundAnimation 15s infinite alternate;
+}
+
+header {
+    background: #ff6f61;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    animation: bounce 2s infinite;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.project img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.project img:hover {
+    transform: scale(1.1);
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    font-size: 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #ff6f61;
+    color: white;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background: linear-gradient(to right, #ff7e5f, #feb47b);
+    }
+    100% {
+        background: linear-gradient(to right, #ff6f61, #ff9068);
+    }
+}
