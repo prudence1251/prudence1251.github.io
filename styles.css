@@ -82,6 +82,22 @@ section {
     font-size: 2em;
 }
 
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.social-links a:hover {
+    color: #ff6f61;
+}
+
 footer {
     text-align: center;
     padding: 10px;
