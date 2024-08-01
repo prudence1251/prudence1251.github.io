@@ -36,8 +36,10 @@ header nav ul li a:hover {
 
 .profile-pic {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 25vw; 
+    height: 25vw; 
+    max-width: 200px; 
+    max-height: 200px; 
     display: block;
     margin: 0 auto;
     animation: bounce 2s infinite;
